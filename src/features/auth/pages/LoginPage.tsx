@@ -21,7 +21,7 @@ export function LoginPage() {
           <LoginHero />
           <LoginForm />
           <AuthDivider label="Identity Verification" />
-          <SocialAuthButtons />
+          
           <div className="mt-10 text-center">
             <p className="text-on-surface-variant text-sm">
               New to the lounge?

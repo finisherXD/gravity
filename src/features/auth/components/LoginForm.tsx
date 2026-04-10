@@ -14,7 +14,7 @@ export function LoginForm() {
       <TextField
         id="identifier"
         label="Email or Username"
-        placeholder="commander@voidlounge.com"
+        placeholder="commander@Gravity.com"
         type="text"
         autoComplete="username"
         leftIcon={
@@ -28,14 +28,7 @@ export function LoginForm() {
         placeholder="••••••••"
         type={showPassword ? 'text' : 'password'}
         autoComplete="current-password"
-        labelAction={
-          <Link
-            className="text-xs font-medium text-secondary hover:text-secondary/80 transition-colors"
-            to="/forgot-password"
-          >
-            Forgot Password?
-          </Link>
-        }
+        
         leftIcon={
           <Lock className="text-on-surface-variant/50 w-5 h-5 group-focus-within:text-secondary transition-colors" />
         }
@@ -55,7 +48,7 @@ export function LoginForm() {
         }
       />
 
-      <CheckboxField id="remember" label="Stay logged in for 30 days" />
+      <CheckboxField id="remember" label="Remember me" />
 
       <Button variant="primary" type="submit">
         Initiate Login
