@@ -1,0 +1,3 @@
+/** Placeholder asset used by the login social button; replace with local asset when ready. */
+export const GOOGLE_SIGN_IN_ICON_URL =
+  'https://lh3.googleusercontent.com/aida-public/AB6AXuBrt_mc5_sfjcgPbOMpJZr9hRGdhTYEVpVu5bAQfMNgnitDQiwRnyI_PaKQpwyP_fG6FB9Oiord91OM4pW7mTIcPu7EUURkZwYFyJFcg48yhLn0xYqzLKpr1B2hGklph3Mb2lx2exRbGtS4Z-jUF11pbRQv7tkKHV8_AbmRs21SAukL49ppcnLFBWR7bF5j6TFN68l9OvMAm4A6WMh5NAx8AbqbHHXxeMOWOetT9r1Lvki45jnL3d2ZTnf_Ttkic63qW05Gx_UxGQM';
